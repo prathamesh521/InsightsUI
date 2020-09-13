@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <div class="inner-container">
+                <div class="head">
+                    <div class="left">
+                        <div class="image"></div>
+                        <div class="name">
+                            <h1>Leo Bailey</h1>
+                            <p>@leo_bai . Entertainment</p>
+                        </div>
+                    </div>
+                    <a href="#">Edit</a>
+                </div>
+                <hr>
+                <div class="navbar">
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="insights">
+                    <h2>Insights</h2>
+                    <p>May 28 - Jun 24</p>
+                </div>
+
+                <div class="box">
+                    <div class="box1">
+                        <div class="content">
+                            <h1>People Reached</h1>
+                            <p>7%</p>
+                        </div>
+                        <div class="content2">
+                            <h1>1,090</h1>
+                            <a href="#">More info ></a>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="content">
+                            <h1>Post Engagements</h1>
+                            <p>25%</p>
+                        </div>
+                        <div class="content2">
+                            <h1>305</h1>
+                            <a href="#">More info ></a>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="content">
+                            <h1>Page Likes</h1>
+                            <p>18%</p>
+                        </div>
+                        <div class="content2">
+                            <h1>13</h1>
+                            <a href="#">More info ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous">
+    </script>
+
+  <script>
+      $(document).on('click', 'ul li', function(){
+            $(this).addClass("active").siblings().removeClass("active")
+        });
+  </script>
+</body>
+    
+</html>
