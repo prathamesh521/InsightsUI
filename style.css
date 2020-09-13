@@ -49,7 +49,7 @@ body{
 .image{
     width:100px;
     height:100px;
-    background: url("../UI-1/img/man2.jpg");
+    background: url("../InsightsUI/img/man2.jpg");
     background-position: top;
     background-size:cover;
     border-radius:50%;
